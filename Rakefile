@@ -7,6 +7,8 @@ begin
     gemspec.email = "na@gmail.com"
     gemspec.homepage = "http://github.com/ryanstout/bitset"
     gemspec.authors = ["Ryan Stout"]
+    gemspec.add_development_dependency 'rake'
+    gemspec.add_development_dependency 'rake-compiler'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
